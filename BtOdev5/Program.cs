@@ -3,7 +3,7 @@
     static void Main(String[] args)
     {
         int[] sirasizlar = { 100, 5, 50, 2, 10, 99, 8, 4, 2 };
-        int[] siralanmis = Sirala(sirasizlar); // sırasızlar dizinin siralanmış halini siralnamış dizisine atar...
+        int[] siralanmis = Sirala(sirasizlar);
         foreach (var item in siralanmis)
             Console.WriteLine(item);
     }
